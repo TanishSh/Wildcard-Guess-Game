@@ -1,11 +1,12 @@
 import pygame
-import time
-import globals
-import functions
+import gameLogic
 
+# pygame initialization
 pygame.init()
-functions.intro()
-functions.instructions()
-functions.game()
+
+gameLogic.intro()
+gameLogic.instructions()
+gameLogic.game()
+
 pygame.quit()
 quit()
